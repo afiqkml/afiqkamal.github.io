@@ -1,0 +1,193 @@
+html, body{                                                   /*CSS for the frontpage, header and navbar starts here, made by Afiq*/
+  background: url(https://i.postimg.cc/fLPyCVTx/kict.jpg);     /* background image */
+  background-attachment: fixed;                                /* to make the image fixed */
+  background-position: center;                                 /* to make the image center */
+  background-repeat: no-repeat;                                /* to make the image not repeated */
+  background-size: cover;                                      /* to make the image size covered the whole page */
+  size:100%;
+  text-align: center;
+
+}
+header{
+  border: 3px solid;                /* border for the header*/
+  padding: 30px;
+  box-shadow: 5px 10px #DBBB8F;       /* box shadow */
+  background-color: beige;
+}
+nav{                                   /* short for navigation */
+  width: 20%;
+  float:right;                         /* set the position of the nav bar */
+  padding-right: 15%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 1px 5px black;
+  background-color: #C5C5C5;
+  text-align: left;
+}
+th, td {                             /* tables */
+      padding: 15px;
+      text-align: center;
+      border: 2px solid black;
+      background-color: white;
+      border-collapse: collapse;
+  }
+h3{                                   /* caption for the group image table and About Us */
+      background-color: beige;
+      width:140px;
+      border: 1px solid;
+  }
+  .tablegroupimage:hover{                           /* class for the table containing group member's image */
+    background-color: #C5C5C5;        /* the background colour will change when the cursor is hover above the table */
+  }
+  .img{                                 /* class for every image */
+  width: auto;
+  height: 200px;
+  }
+  .About{
+    background-color: #C5C5C5;
+    width: 890px;
+    border: 1px solid black;
+  }
+  .youtube{
+  width:350px;
+  height: auto;
+
+  }
+/* CSS for Afiq's page starts here, made by Afiq */
+
+  .quote{
+    background-color: #F4CB97;  /*change background color*/
+    border: 1px solid black;
+  }
+  .quote:hover{                 /*change background properties when mouse hover*/
+    border: 1px solid black;
+    text-align:center;
+    background-color: #DBBB8F;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Garamond;
+  }
+  #quote{
+    text-align: center;
+  }
+  .imageAfiq{                      /*control image size*/
+    width: auto;
+    height: 200px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #cap{
+    text-align: center;
+  }
+  .tabledetails{                     /*set position for the details table*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F4CB97;
+  }
+  h4{                                       /*change background colour and set position*/
+    background-color: #DBBB8F;
+    text-align: center;
+    width:140px;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Intro{                               /*change background color*/
+    background-color: #F4CB97;
+    border: 1px solid black;
+  }
+  .Intro:hover{                         /*change background properties when mouse hover*/
+    background-color: #DBBB8F;
+    border: 1px solid black;
+    font-family:Garamond;
+    font-size: 30px;
+  }
+  .detail:hover{
+      background-color: #C5C5C5;              /* the background colour will change when the cursor is hover above the table */
+  }
+  .info{                                      /*change background color*/
+    background-color: #F4CB97;
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info:hover{                                /*change background properties when mouse hover*/
+    background-color: #DBBB8F;
+    border: 1px solid black;
+    font-family:Garamond;
+    font-size: 30px;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .afiqyoutube{
+    width: 30%;
+    float:left;
+  }
+  .afiqsocialmedia{
+    width: 30%;
+    float: right;
+  }
+/* CSS for Rihab's page starts here, made by Rihab*/
+
+#rihab{                                            /*set font color and background color*/
+     font-size:25;
+     background-color: black;
+     color: white;
+
+}
+p1{                                          /*set font color*/
+     color:gold;
+}
+p2{                                         /*set font color*/
+     font-size:15;
+     color:cyan;
+}
+p3{                                           /*set font color*/
+     font-size:25;
+     color:magenta;
+     font-weight: bold;
+}
+p4{                                             /*set font color*/
+     font-size:15;
+     color:OrangeRed;
+}
+p5{                                           /*set font color*/
+     font-size:25;
+     color:FF0002;
+     font-weight: bold;
+}
+.aboutrihab{
+  background-color: white;
+  border: 1px solid black;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rihabimage{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width:140px;
+}
+/*CSS for Syahmi's page starts here, made by Syahmi*/
+ /* Make the image fully responsive */
+.carousel-inner img {
+     width: auto;
+     height: 300px;
+ }
+ .biodata{
+   background-color: white;
+   border: 1px solid black;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #syahmiquote{
+   font-size:15px;
+   color:FF0002;
+   font-weight: bold;
+ }
